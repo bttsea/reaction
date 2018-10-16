@@ -91,7 +91,7 @@ async function connect(mongoUrl) {
  * Runs the mongo command replSetInitiate,
  * which we need for the oplog for meteor real-time
  *
- * @param {objecct} db connected mongo db instance
+ * @param {Object} db connected Mongo db instance
  * @returns {Promise} indication of success/failure
  */
 async function initReplicaSet(db) {
